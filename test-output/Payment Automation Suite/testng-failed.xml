@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Payment Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Payment Test(failed)">
+    <classes>
+      <class name="com.demo.tests.PaymentFlowTest">
+        <methods>
+          <include name="verifyPaymentFlowTillOtp"/>
+        </methods>
+      </class> <!-- com.demo.tests.PaymentFlowTest -->
+    </classes>
+  </test> <!-- Payment Test(failed) -->
+</suite> <!-- Failed suite [Payment Automation Suite] -->
